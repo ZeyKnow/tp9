@@ -1,4 +1,5 @@
 @media screen and (min-width: 900px) {
+    
 body {
     margin-left: 6em;
     margin-top: 6em;
@@ -70,4 +71,5 @@ body {
     50% {opacity: 0.50;}
     75% {opacity: 0.25;}
     100% {opacity: 0;}    
+}
 }
