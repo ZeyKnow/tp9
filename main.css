@@ -1,0 +1,72 @@
+ body {
+    margin-left: 6em;
+    margin-top: 6em;
+}
+
+ #container {
+    display: flex;
+    justify-content: space-between;
+}
+
+ img{
+    width: 200px;
+    height: 150px;
+}
+
+ .box1 {
+    background-color: orange;
+    padding-top: 3em;
+    padding-right: 5em;
+    padding-left: 5em;
+    padding-bottom: 3em;
+    box-sizing: border-box;
+    width: 200px;
+    height: 150px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    transition-property: background-color border-color border-width color ;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+ .box1:hover {
+    background-color: blue;
+    color: white;
+    border-color: red;
+    border-width: 5px;
+}
+
+ .box2:hover {
+    transform: scale(1.5);
+    transform: rotate(-3deg);
+}
+
+ .box3:hover {
+    transform: scale(1.5);
+    transform: rotate(5deg);
+}
+
+ .box4:hover {
+    transform: scale(1.5);
+    transform: rotate(-7deg);
+}
+
+ .box5:hover {
+    transform: scale(1.5);
+    rotate: 2deg;
+}
+
+ .box6:hover {
+    animation-name: opacity;
+    animation-duration: 3s;
+}
+
+ @keyframes opacity {
+    0% {opacity: 1;}
+    25% {opacity: 0.75;}
+    50% {opacity: 0.50;}
+    75% {opacity: 0.25;}
+    100% {opacity: 0;}    
+}
